@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Designer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/326750b94b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="./imagenes/Logo-IPC-color.svg" />
+</head>
+<body>
+
+    <!---Nav Bar--->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./imagenes/Logo-IPC-color.svg" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="webpage.html.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scroll" role="button">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"role="button">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <!---Carousel--->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/pexels-danny-meneses-943101.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Juan Picco</h1>
+                    <h3>Front-End Web Developer</h3>
+                    <a href="#scroll"><button type="button" class="btn btn-outline-light btn-lg">Let's Work Together</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/Landscape.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/pexels-kevin-ku-577585.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!---Jumbotron--->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead"> Web development and design foundations with html5 and css3. An excelent team player, always looking for solutions. Ready to tackle every project and to learn together along the way.</p> 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#contact"><button type="button" class="btn btn-outline-secondary btn-lg">Contact me</button></a>
+            </div>
+        </div>    
+    </div>
+
+    <!---Welcome--->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">My tools</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead"> These are the tools I have learned and use for my work. I keep on learning everyday and never settle</p>
+            </div>
+        </div>
+    </div>
+
+    <!---Tools Icons--->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <i class="fas fa-code"></i>
+                <h3>HTML5</h3>
+                <p>The foundations of my code are written in the latest version of HTML,HTML5</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <i class="fas fa-bold"></i>
+                <h3>BOOTSTRAP</h3>
+                <p>The framework that I been working on is Bootstrap and I am currently using Bootstrap 4 </p>
+            </div>
+            <div class="col-sm-12 col-md-4 ">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+                <p>The style sheet language that I work with is CSS (Cascading Style Sheets) latest version, CSS3</p>
+            </div>
+        </div>    
+        <hr class="my-4">
+    </div>
+
+     <!---Portafolio Title--->
+     <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Portfolio</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead"> My works</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <!---Portafolio Body--->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4 justify-content-center d-flex">
+                <div class="card">
+                    <img class="card-img-top-portafolio" src="./imagenes/SteamMillAntiques news 4.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Steam Mill Antiques</h4>
+                        <hr>
+                        <p class="card-text">A brochure page of Steam Mill Antiques so they can show their products and bussines. </p>
+                        <a href="https://github.com/juanpicco/steammillantiques" class="btn btn-outline-secondary" target="_blank">Code</a>
+                        <a href="https://juanpicco.github.io/steammillantiques/" class="btn btn-outline-secondary" target="_blank">Page</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 justify-content-center d-flex ">
+                <div class="card">
+                    <img class="card-img-top-portafolio" src="./imagenes/inakipiccoaching.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title" >Coaching Page</h4>
+                        <hr>
+                        <p class="card-text"> I developed this project for my own personal brand of coaching and fitness training.</p>
+                        <a href="https://github.com/juanpicco/ipcoaching" class="btn btn-outline-secondary" target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 justify-content-center d-flex">
+                <div class="card">
+                    <img class="card-img-top-portafolio" src="./imagenes/aspersiweb.JPG">
+                    <div class="card-body">
+                        <h4 class="card-title">E-sports Portal</h4>
+                        <hr>
+                        <p class="card-text">I try to merge my two passions coaching and gaming, here is an example of how I use a web design plataform and canvas</p>
+                        <a href="https://juanignaciopicco.wixsite.com/misitio/contact" class="btn btn-outline-secondary" target="_blank">Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Fixed Background--->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed"></div>
+        </div>
+    </figure>
+
+
+
+    <!---Meet my teachers--->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Meet my teachers</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead"> These are my mentors in the world of programing.</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <!---Cards of teachers--->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4 justify-content-center d-flex">
+                <div class="card">
+                    <img class="card-img-top" src="./imagenes/Agus.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Agustina Silveira-Galbán</h4>
+                        <hr>
+                        <p class="card-text">Agus is a Corporate Web Application Developer at Boyne Resorts she has been developing for almost 20 years. She encouraged me to keep going and never lost faith in me while I was learning. </p>
+                        <a href="https://www.linkedin.com/in/agoose/" class="btn btn-outline-secondary" target="_blank">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 justify-content-center d-flex ">
+                <div class="card">
+                    <img class="card-img-top" src="./imagenes/Ari.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title" >Leandro Ariel Millahuel</h4>
+                        <hr>
+                        <p class="card-text"> Ariel is a threat Hunting Engineer en SOC Prime he showed me how fascinating the world of programing is. He is a great programer with amazing skills that I really admire.</p>
+                        <a href="https://www.linkedin.com/in/leandro-ariel-millahuel-688112150/" class="btn btn-outline-secondary" target="_blank">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 justify-content-center d-flex">
+                <div class="card">
+                    <img class="card-img-top" src="./imagenes/Facu.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Facundo Ibarzábal</h4>
+                        <hr>
+                        <p class="card-text">Facundo works as a Backend Java Developer en Naranja X and is the Co-founder & Frontend Developer at Whyep. He introduced me to programing and guided me through my first steps.</p>
+                        <a href="https://www.linkedin.com/in/facuibarzabal/" class="btn btn-outline-secondary" target="_blank">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---Why me?--->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6" id="scroll">
+                <h1>Why hire me?</h1>
+                <p>If you are reading this you are genuinely interested in my profile but you are wondering what makes me more qualified than the rest.</p>
+                <p>I studied to be a Personal Trainer and a Coach. Those experiences allowed me to grow on a personal level. I developed tools that grant the ability to be a great team player. I have learn so much from my students in all thess years as we worked together.</p>
+                <p> I experienced what is to find obstacles along the way and with my social skills I can get things done, managing to keep everyone around me working happy and functional.</p>
+                <p> When I started programing I realized this career is for curious people, because if you are curious you are always looking for something new to do, something to improve, developing new skills and studying new languages. </p>
+                <p>To sum up, WHY ME? I will never settle or give up. I will always work for the team but I can manage perfectly on my own and most importantly because I'm curious of everything and that will make me keep on learning everything that there is to learn.</p>
+                <br>
+            </div>
+            <div class="col-lg-6">
+                <img src="./imagenes/IMG_4641.JPG" class="img-fluid">
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+    <!---Connect-->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="https://www.facebook.com/inaki.picco/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/ipcoaching/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/juan-picco/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!---Footer-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md" id="contact">
+                    <img src="./imagenes/Logo-IPC-color.svg" class="logo">
+                    <hr class="light">
+                    <p>Phone: +54-11-2327-5833</p>
+                    <p>Email: piccojuanignacio@gmail.com</p>
+                    <p>Buenos Aires, Argentina</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
