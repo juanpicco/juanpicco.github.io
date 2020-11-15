@@ -116,12 +116,8 @@ footer {
     margin-left: auto;
 }
 
-.card-img-top-work {
-    height: 300px;
-}
-
-.card-img-top-portafolio{
-    height: 250px;
+.card-img-top-portafolio {
+    height:250px
 }
 
 .card {
